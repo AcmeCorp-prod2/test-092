@@ -41,3 +41,6 @@ jobs:
           -e WORKSPACE_PATH="/src" \
           -e LOG_LEVEL="debug" \
           -v "${{ github.workspace }}":/src  "${{env.docker_tag}}"
+
+
+          
